@@ -1,0 +1,38 @@
+
+#inicio {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 50px;
+    
+}
+#texto {
+    flex: 1; 
+    padding: 20px;
+    text-align: left;
+}
+
+#texto h1 {
+    font-size: 32px;
+    font-family: 'Georgia', serif;
+    color: #8B0000; 
+}
+#texto h2 {
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #444;
+}
+
+
+#image-Fachada {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+}
+
+#image-Fachada img {
+    width: 90%; 
+    max-width: 500px;
+    border-radius: 10px; 
+     
+}

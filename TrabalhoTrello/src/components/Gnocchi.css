@@ -1,0 +1,30 @@
+.gnocchi-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.gnocchi-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.gnocchi-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.gnocchi-card h3 {
+    color: #8B0000;
+    margin: 10px 0;
+}
+
+.gnocchi-card p {
+    font-size: 18px;
+    font-weight: bold;
+}
